@@ -11,7 +11,8 @@ public class demo1 {
 		 * 
 		 */
 	//xpath=cssselector
-		//name="shashank"
+		//name=shashank
+		//company=tyss
 		
 	}
 
