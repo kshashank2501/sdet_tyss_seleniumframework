@@ -1,5 +1,7 @@
 package COM.Assignment;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,7 +14,7 @@ public class Assignment {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("");
-		driver.findElement("By.id("username").sendkeys("admin"),Keys.TAB,"admin",Keys.TAB,Keys.SPACE,Keys.ENTER);"
+	//	driver.findElement(((Object) By.id("username")).sendkeys("admin",Keys.TAB,"admin",Keys.TAB,Keys.SPACE,Keys.ENTER));
 
 	}
 
